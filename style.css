@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(212, 225, 229) ;
+   
+   
+}
+nav ,
+.nav-left {
+    display: flex;
+}
+
+nav {
+   padding: 50px 70px;
+   justify-content: space-between;
+}
+.nav-left {
+    gap: 40px;
+}
+
+
+nav img {
+    position: relative;
+    bottom: 20%;
+}
+nav ul {
+    display: flex;
+    list-style:none;
+    gap: 40px;
+    cursor: pointer;
+}
+nav li:hover {
+    color: gray;
+}
+nav button {
+    background-color: white;
+    border: none;
+    padding:5px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    padding:0 95px;
+}
+.sell-data {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sell-img  {
+    background: url(images/landing_bg.png) no-repeat ;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: end;
+    justify-content: center;
+    
+}
+
+.sell-img img:last-child {
+    position: relative;
+    bottom: 40%;
+    z-index: 1;
+}
+.main {
+    background-color: white;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background: url(images/second_section_.png) no-repeat white 120% 20%;
+    
+}
+
+.main img {
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.main-first {
+    display: grid;
+    grid-template-columns:30% 70%;
+    column-gap: 60px;
+  
+}
+
+.main-first img:last-child {
+    margin-top: 140px;
+
+}
+
+.main-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40%;
+  
+}
+
+.main-third {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.footer {
+    display: flex;
+    background : url(images/Group\ 1131.png) center 100%;
+    justify-content: center ;
+    align-items: center;
+    gap: 20%;
+    padding: 20px;
+    
+}
+.footer-right ,
+.footer-left {
+    width: 50%;
+}
+
+.footer-left {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.footer-right img {
+    width: 40%;
+    height: 20%;
+}
+
+.container ,
+.list ,
+.icons {
+    display: flex;
+}
+
+.container {
+    gap: 20px;
+}
+
+.container-one ,
+.container-two {
+    width: 120px;
+    height: 60px;
+    border-radius: 15px;
+   background-color: white;
+   margin: 10p;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+}
+
+.icons {
+    gap: 10px;
+    padding: 50px 0 ;
+    color: white;
+    cursor: pointer;
+}
+
+.list ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+
